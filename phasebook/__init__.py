@@ -2,7 +2,6 @@ from flask import Flask
 
 from . import match, search
 
-
 def create_app():
     app = Flask(__name__)
 
